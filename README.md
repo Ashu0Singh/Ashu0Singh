@@ -1,8 +1,9 @@
 <img src="https://raw.githubusercontent.com/Ashu0Singh/Ashu0Singh/main/Github%20Banner.png" alt="Banner" />
-<p align="left"> <a href="https://twitter.com/ashu_simgh" target="blank"><img src="https://img.shields.io/twitter/follow/ashu_simgh?logo=twitter&style=for-the-badge" alt="ashu_simgh" /></a> </p>
 <p align="center"> 
-  Visitor count<br>
-  <img src="https://visitor-badge.glitch.me/badge?page_id=Ashu0Singh.Ashu0Singh&left_color=green&right_color=red" />
+    <a href="https://twitter.com/ashu_simgh" target="blank">
+      <img src="https://img.shields.io/twitter/follow/ashu_simgh?logo=twitter&style=for-the-badge" alt="ashu_simgh" />
+    </a>
+    <img src="https://komarev.com/ghpvc/?username=Ashu0Singh&color=blueviolet&style=for-the-badge" />
 </p>
 
 
@@ -28,3 +29,6 @@
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ashu0singh&show_icons=true&locale=en" alt="ashu0singh" /></p>
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ashu0singh&" alt="ashu0singh" /></p>
+
+
+
