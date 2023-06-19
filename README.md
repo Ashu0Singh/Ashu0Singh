@@ -7,16 +7,7 @@
 </p>
 
 <p align="center">
-Currently, I am navigating through my third year of a BTECH degree in Computer Science at the esteemed Vellore Institute of Technology, Amaravati. My journey so far has shaped me into a proficient Full Stack Web Developer and UI Designer, with a particular knack for building responsive and interactive web applications. 
-
-My technical expertise lies in leveraging modern technologies such as React.js for front-end development, Express.js and MongoDB for adding robust functionalities to these applications. This skill set has enabled me to design, build, and deploy a multitude of web applications, each unique in its own way.
-
-Beyond my technical prowess, I possess a keen eye for design. This aesthetic sensibility, coupled with my proficiency in design tools like Figma, allows me to create visually appealing and user-friendly interfaces. 
-
-In my leisure time, I find joy in staying abreast of the latest trends in front-end and UI design. I also invest time in working on personal projects, which serves as a platform for me to continually refine and enhance my skills.
-
-As I progress in my studies and career, I am fueled by an unwavering excitement to learn and grow. I am eager to further hone my abilities as a developer and designer, and to contribute my skills and knowledge to the ever-evolving field of technology.
-
+I am a third-year BTECH student in Computer Science at Vellore Institute of Technology, Amaravati. I specialize in Full Stack Web Development and UI Design, using technologies like React.js, Express.js, and MongoDB. I enjoy creating responsive and interactive web applications, and I have experience in designing visually appealing interfaces using tools like Figma. In my free time, I stay updated on front-end and UI design trends and work on personal projects to improve my skills. I'm excited to continue learning and contribute to the field of technology.
 </p>
 
 <h3 align="left">Connect with me:</h3>
