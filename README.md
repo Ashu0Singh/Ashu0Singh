@@ -6,14 +6,7 @@
     <img src="https://komarev.com/ghpvc/?username=Ashu0Singh&color=blueviolet&style=for-the-badge" />
 </p>
 
-
-- 🔭 I’m currently working on **Battle of the Bands**
-
-- 🌱 I’m currently learning **MERN Stack**
-
-- 👯 I’m looking to collaborate on **Crud**
-
-- 💬 Ask me about **ReactJS**
+<p align="center">Hi there! (＾▽＾) I'm currently in my 3rd year of a BTECH in Computer Science at Vellore Institute of Technology Amaravati. As a front-end React developer & UI designer (✿◠‿◠), I excel in building responsive and interactive web applications using React.js and other modern front-end technologies. In addition to my technical skills, I have a keen eye for design (☆▽☆) and am proficient in using design tools like Figma to create visually appealing user interfaces. In my spare time, I enjoy staying up-to-date on the latest front-end and UI design trends (⌐■_■) and working on personal projects to level up my skills. I'm excited to continue learning and growing as a developer and designer as I progress in my studies and career! (ง •̀ω•́)ง✧</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
