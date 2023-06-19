@@ -1,5 +1,3 @@
-<h1 align="center">Hi 👋, I'm Ashutosh Singh</h1>
-<h3 align="center">A passionate React Developer</h3>
 <img src="https://raw.githubusercontent.com/Ashu0Singh/Ashu0Singh/main/Github%20Banner.png" alt="Banner" />
 <p align="left"> <a href="https://twitter.com/ashu_simgh" target="blank"><img src="https://img.shields.io/twitter/follow/ashu_simgh?logo=twitter&style=for-the-badge" alt="ashu_simgh" /></a> </p>
 
