@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ashutosh Singh</h1>
 <h3 align="center">A passionate React Developer</h3>
-
+<img src="./Github Banner.png" alt="Banner" />
 <p align="left"> <a href="https://twitter.com/ashu_simgh" target="blank"><img src="https://img.shields.io/twitter/follow/ashu_simgh?logo=twitter&style=for-the-badge" alt="ashu_simgh" /></a> </p>
 
 - 🔭 I’m currently working on **Battle of the Bands**
