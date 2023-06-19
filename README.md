@@ -2,7 +2,7 @@
 <p align="left"> <a href="https://twitter.com/ashu_simgh" target="blank"><img src="https://img.shields.io/twitter/follow/ashu_simgh?logo=twitter&style=for-the-badge" alt="ashu_simgh" /></a> </p>
 <p align="center"> 
   Visitor count<br>
-  <img src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red" />
+  <img src="https://visitor-badge.glitch.me/badge?page_id=Ashu0Singh.Ashu0Singh&left_color=green&right_color=red" />
 </p>
 
 
