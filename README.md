@@ -1,5 +1,10 @@
 <img src="https://raw.githubusercontent.com/Ashu0Singh/Ashu0Singh/main/Github%20Banner.png" alt="Banner" />
 <p align="left"> <a href="https://twitter.com/ashu_simgh" target="blank"><img src="https://img.shields.io/twitter/follow/ashu_simgh?logo=twitter&style=for-the-badge" alt="ashu_simgh" /></a> </p>
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red" />
+</p>
+
 
 - 🔭 I’m currently working on **Battle of the Bands**
 
