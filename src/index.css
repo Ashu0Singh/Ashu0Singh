@@ -32,18 +32,24 @@ body {
     background:var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    background-color: #100900;
 }
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
 }
 
-h1,h2,h3,h4,h5{
-    font-weight: 500;
-}
 h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+@media (min-width: 35rem) {
+    h1{
+        font-size: 3rem;
+    line-height: 2.6rem;
+
+    }
 }
 section{
     margin-top: 8rem;
