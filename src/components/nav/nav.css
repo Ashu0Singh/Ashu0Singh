@@ -3,7 +3,7 @@ nav{
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
-    z-index: 2;
+    z-index: 20;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -12,6 +12,14 @@ nav{
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    overflow: visible;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 nav a{

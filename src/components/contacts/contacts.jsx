@@ -1,21 +1,71 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./contacts.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
+import toast from "react-hot-toast";
 
 const Contacts = () => {
 	const form = useRef();
+	const [formData, setFromData] = useState({
+		name: "",
+		email: "",
+		message: "",
+		isDisabled: false,
+	});
 
-	const sendEmail = (e) => {
-		e.preventDefault();
-		emailjs.sendForm(
-			"service_nif6ol8",
-			"template_83o2jls",
-			form.current,
-			"3OrcJjnDY2QZ9GKAM"
-		);
+	const sendEmail = (event) => {
+		event.preventDefault();
+		setFromData((prevValue) => ({
+			...prevValue,
+			isDisabled: true,
+		}));
+		try {
+
+			emailjs
+				.send(
+					process.env.REACT_APP_EMAILJS_SERVICE,
+					process.env.REACT_APP_EMAILJS_TEMPLATE,
+					{
+						from_name: formData.name,
+						from_email: formData.email,
+						message: formData.message,
+					},
+					process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+				)
+				.then((respose) => {
+					toast.success("Message has been sent!", {
+						icon: "💬",
+						style: {
+							borderRadius: "10px",
+							background: "#333",
+							color: "#fff",
+						},
+					});
+					setFromData({
+						name: "",
+						email: "",
+						message: "",
+						isDisabled: false,
+					});
+				})
+				.catch((error) => {
+					toast.error("There has been an error");
+				});
+		} catch (error) {
+			toast.error("There has been an error");
+			console.log(error);
+		}
+	};
+
+	const handleChange = ({ target: { name, value } }) => {
+		setFromData((prevValue) => {
+			return {
+				...prevValue,
+				[name]: value,
+			};
+		});
 	};
 
 	return (
@@ -62,21 +112,31 @@ const Contacts = () => {
 					<input
 						type="text"
 						name="name"
-						placeholder="Your Full Name"
+						value={formData.name}
+						placeholder="Full Name"
+						onChange={handleChange}
 						required
 					/>
 					<input
 						type="email"
-						name="E-mail"
-						placeholder="Your Email"
+						name="email"
+						value={formData.email}
+						placeholder="Email"
+						onChange={handleChange}
 						required
 					/>
 					<textarea
 						name="message"
 						rows="10"
-						placeholder="Your Message"
-						required></textarea>
-					<button type="submit" className="btn btn-primary">
+						value={formData.message}
+						placeholder="Message"
+						onChange={handleChange}
+						required
+					/>
+					<button
+						disabled={formData.isDisabled}
+						type="submit"
+						className="btn btn-primary">
 						Send Message
 					</button>
 				</form>
