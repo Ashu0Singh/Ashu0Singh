@@ -11,14 +11,21 @@ h1 {
 	font-weight: 800;
 }
 .header__container {
-	text-align: center;
+	display: flex;
+	text-align: left;
 	height: 100%;
 }
 .cta {
-	margin-top: 2.5rem;
 	display: flex;
 	gap: 1.2rem;
-	justify-content: center;
+	justify-content: flex-start;
+}
+.heroSection{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 2rem;
 }
 .header__social {
 	display: flex;
@@ -38,7 +45,7 @@ h1 {
 
 .midPannel{
 	margin-top: 1rem;
-	width: 90%;
+	width: 40%;
 	margin-inline: auto;
 	display: flex;
 	flex-direction: column;
@@ -47,13 +54,28 @@ h1 {
 	gap: 1rem;
 }
 .heroImage {
-	background-color: linear-gradient(var(--color-primary), transparent);
 	width: 100%;
 	max-width: 25rem;
 }
 
 /* Media queries for medium devices */
 @media screen and (max-width: 1024px) {
+	.subPara{
+		color: var(--color-light);
+	}
+	.cta {
+		justify-content: center;
+	}
+	.heroSection{
+		width: 100%;
+	}
+	.midPannel{
+		width: 100%;
+	}
+	.header__container {
+		flex-direction: column;
+		text-align: center;
+	}
 	header {
 		padding-top: 6rem;
 	}

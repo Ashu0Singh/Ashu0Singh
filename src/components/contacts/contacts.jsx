@@ -22,7 +22,6 @@ const Contacts = () => {
 			isDisabled: true,
 		}));
 		try {
-
 			emailjs
 				.send(
 					process.env.REACT_APP_EMAILJS_SERVICE,
@@ -34,12 +33,12 @@ const Contacts = () => {
 					},
 					process.env.REACT_APP_EMAILJS_PUBLIC_KEY
 				)
-				.then((respose) => {
+				.then(() => {
 					toast.success("Message has been sent!", {
 						icon: "💬",
 						style: {
 							borderRadius: "10px",
-							background: "#333",
+							background: "#100900",
 							color: "#fff",
 						},
 					});

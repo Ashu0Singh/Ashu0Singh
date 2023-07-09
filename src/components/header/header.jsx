@@ -3,7 +3,7 @@ import "./header.css";
 import CTA from "./CTA";
 import HeroImage from "../../assets/HeroSection.png";
 import Headersocial from "./Headersocial";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 const header = () => {
 	const initial = {
 		translateY: 30,
@@ -20,35 +20,49 @@ const header = () => {
 	return (
 		<header>
 			<div className="container header__container">
-				<motion.div className="intro">
-					<motion.h3
-						initial={initial}
-						animate={animate}
-						transition={transition}>
-						Hey there, I'm{" "}
-					</motion.h3>
-					<motion.h1
-						initial={initial}
-						animate={animate}
-						transition={{
-							...transition,
-							delay: 0.6,
-						}}>
-						Ashutosh Singh
-					</motion.h1>
-					<motion.h3
-						initial={initial}
-						animate={animate}
-						transition={{
-							...transition,
-							delay: 1.2,
-						}}
-						className="text-light">
-						Full Stack Developer
-					</motion.h3>
-				</motion.div>
-
-				<CTA />
+				<div className="heroSection">
+					<motion.div className="intro">
+						<motion.h3
+							initial={initial}
+							animate={animate}
+							transition={transition}>
+							Hey there, I'm{" "}
+						</motion.h3>
+						<motion.h1
+							initial={initial}
+							animate={animate}
+							transition={{
+								...transition,
+								delay: 0.6,
+							}}>
+							Ashutosh Singh
+						</motion.h1>
+						<motion.h3
+							initial={initial}
+							animate={animate}
+							transition={{
+								...transition,
+								delay: 1.2,
+							}}
+							className="text-light">
+							Full Stack Developer
+						</motion.h3>
+					</motion.div>
+					<motion.p
+						className="subPara"
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{ duration: 0.8, delay: 1.6 }}>
+						I'm a third-year BTech Computer Science student at
+						Vellore Institute of Technology, Amaravati, specializing
+						in front-end development and UI design. Skilled in
+						React.js and Figma, I build interactive, appealing web
+						applications. Continuously refining my abilities through
+						personal projects, I aim to advance in my developer and
+						designer roles.
+					</motion.p>
+					<CTA />
+				</div>
 				<div className="midPannel">
 					<motion.div
 						initial={{ opacity: 0 }}

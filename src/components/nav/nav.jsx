@@ -14,7 +14,7 @@ const Nav = () => {
 		<motion.nav
 			initial={{ width: "5%" }}
 			animate={{ width: "max-content" }}
-			transition={{ duration: 1, delay: 1.6 }}>
+			transition={{ duration: 1, delay: 2.6 }}>
 			<a href="#" className={activeNav === "#" ? "active" : ""}>
 				{" "}
 				<AiOutlineHome />

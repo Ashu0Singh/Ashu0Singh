@@ -33,7 +33,7 @@ const data = [
 		id: 4,
 		weburl: "www.ashu-singh.me/Space-Tourism/",
 		title: "Space Tourism",
-		desc: `Explore our newly revamped boat eCommerce platform, designed with MERN stack and Strapi.js for a smooth browsing experience, and secured with Stripe.js for reliable, easy transactions. Finding and purchasing your dream boat has never been more seamless!`,
+		desc: `Discover the universe with Space Tourism, your digital gateway to everything about space travel. Dive in for engaging, insightful education on extraterrestrial adventures right from the comfort of your home!`,
 		url: "https://raw.githubusercontent.com/Ashu0Singh/Ashu0Singh/master/src/assets/Space_Tourism.png",
 		github: "https://github.com/Ashu0Singh/SpaceTourism",
 	},

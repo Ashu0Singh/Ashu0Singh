@@ -1,6 +1,6 @@
 .portfolio {
-    width: 80%;
-    margin-inline: auto;
+	width: 80%;
+	margin-inline: auto;
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
@@ -17,9 +17,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .portfolio{
-        width: 95%;
-    }
+	.portfolio {
+		width: 95%;
+	}
 	.portfolio h1 {
 		font-size: 1.6rem;
 	}
@@ -30,18 +30,18 @@
 }
 
 .portfolio__container {
-    width: 100%;
-    margin-inline: auto;
+	width: 100%;
+	margin-inline: auto;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 1rem;
-    overflow-y: scroll;
+	overflow-y: scroll;
 }
 
 @media screen and (max-width: 1024px) {
-    .portfolio__container {
-        overflow-y: hidden;
-    }
+	.portfolio__container {
+		overflow-y: hidden;
+	}
 }
 .portfolio__item {
 	background: var(--color-bg-variant);
@@ -51,14 +51,14 @@
 	border: 1px solid transparent;
 	display: flex;
 	flex-direction: column;
-    justify-content: space-between;
+	justify-content: space-between;
 	gap: 1rem;
 	transition: var(--transition);
 }
 
-.button-flex{
-    display: flex;
-    justify-content: space-between;
+.button-flex {
+	display: flex;
+	justify-content: space-between;
 }
 
 .portfolio__item:hover {
@@ -71,9 +71,12 @@
 }
 .portfolio__item-cta {
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 	gap: 2rem;
 	margin-bottom: 1rem;
+}
+.desc {
+	flex-grow: 1;
 }
 @media screen and (max-width: 1360px) {
 	.portfolio__container {
@@ -91,7 +94,7 @@
 /* Media queries for small devices */
 @media screen and (max-width: 600px) {
 	.portfolio__container {
-        width: 95%;
+		width: 95%;
 		grid-template-columns: 1fr;
 		gap: 1rem;
 	}
