@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./contacts.css";
+import "./Contacts.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
@@ -68,45 +68,10 @@ const Contacts = () => {
 	};
 
 	return (
-		<section id="contact">
+		<section id="contacts" className="contact">
+			<h1 className="heading">Contact Me</h1>
 			<h5>Get in Touch</h5>
-			<h2>Contact Me</h2>
 			<div className="container contact__container">
-				<div className="contact_options">
-					<article className="contact__option">
-						<MdOutlineEmail />
-						<h4>Email</h4>
-						<h5>shivanshsharma1507@gmail.com</h5>
-						<a
-							href="shivanshsharma1507@gmail.com"
-							target="_blank"
-							rel="noopener noreferrer">
-							Send a Message
-						</a>
-					</article>
-					<article className="contact__option">
-						<BsInstagram />
-						<h4>Instagram</h4>
-						<h5>Shivansh Sharma</h5>
-						<a
-							href="https://www.instagram.com/shivanshh_sharmaa/"
-							target="_blank"
-							rel="noopener noreferrer">
-							Send a Message
-						</a>
-					</article>
-					<article className="contact__option">
-						<BsWhatsapp />
-						<h4>Whatsapp</h4>
-						<h5>+91 7052899759</h5>
-						<a
-							href="https://api.whatsapp.com/send?phone=7052899759"
-							target="_blank"
-							rel="noopener noreferrer">
-							Send a Message
-						</a>
-					</article>
-				</div>
 				<form ref={form} onSubmit={sendEmail}>
 					<input
 						type="text"
@@ -126,7 +91,7 @@ const Contacts = () => {
 					/>
 					<textarea
 						name="message"
-						rows="10"
+						rows="5"
 						value={formData.message}
 						placeholder="Message"
 						onChange={handleChange}
@@ -135,7 +100,7 @@ const Contacts = () => {
 					<button
 						disabled={formData.isDisabled}
 						type="submit"
-						className="btn btn-primary">
+						className="btn btn-primary btn-align">
 						Send Message
 					</button>
 				</form>

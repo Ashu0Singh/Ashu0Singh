@@ -36,6 +36,9 @@ nav a:hover {
 }
 
 nav a:active {
-	background: var(--color-primary);
 	color: var(--color-bg);
+}
+
+.active {
+	background: var(--color-accent);
 }

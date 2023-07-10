@@ -1,10 +1,9 @@
 import React from "react";
-import Header from "./components/header/header";
-import Nav from "./components/nav/nav";
-import Services from "./components/services/services";
-import Portfolio from "./components/portfolio/portfolio";
-import Contacts from "./components/contacts/contacts";
-import Footer from "./components/footer/footer";
+import Header from "./components/Header/Header";
+import Nav from "./components/Navbar/Navbar";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Contacts from "./components/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 import { Toaster } from "react-hot-toast";
 
 const App = () => {
@@ -14,7 +13,6 @@ const App = () => {
 			<Header />
 			<Nav />
 			<Portfolio />
-			{/* <Services /> */}
 			<Contacts />
 			<Footer />
 		</>

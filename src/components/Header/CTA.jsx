@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/CV-July23.pdf";
 import { motion } from "framer-motion";
 const CTA = () => {
 	const initial = {

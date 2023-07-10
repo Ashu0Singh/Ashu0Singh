@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./portfolio.css";
+import "./Portfolio.css";
 import { AiFillGithub } from "react-icons/ai";
 import { PiMonitor } from "react-icons/pi";
 import { motion, useInView, useAnimation } from "framer-motion";

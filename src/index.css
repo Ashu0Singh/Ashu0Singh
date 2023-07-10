@@ -136,3 +136,13 @@ img {
 .name{
 	color: var(--color-secondary-light);
 }
+
+input,textarea,button{
+	font-family: inherit;
+}
+
+.heading {
+	margin-inline: auto;
+	font-size: 2.5rem;
+	color: var(--color-accent);
+}
