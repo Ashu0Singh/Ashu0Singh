@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2c36969.css",
+    "main.js": "/static/js/main.c9fe3287.js",
+    "static/media/HeroSection.png": "/static/media/HeroSection.efc911b1b486853a64bc.png",
+    "static/media/CV-July23.pdf": "/static/media/CV-July23.6fdab541ab2aba0c623a.pdf",
+    "index.html": "/index.html",
+    "main.a2c36969.css.map": "/static/css/main.a2c36969.css.map",
+    "main.c9fe3287.js.map": "/static/js/main.c9fe3287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2c36969.css",
+    "static/js/main.c9fe3287.js"
+  ]
+}
