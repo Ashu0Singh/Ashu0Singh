@@ -28,25 +28,25 @@ const Headersocial = () => {
 				initial={initial}
 				animate={animate}
 				transition={transition}
-				href="https://www.linkedin.com/in/shivanshsharma15/"
+				href="https://www.linkedin.com/in/ashu-singh101/"
 				target="_blank">
-				<BsLinkedin />
+				<BsLinkedin color="#BC8CF2"/>
 			</motion.a>
 			<motion.a
 				initial={{ ...initial, translateX: 0 }}
 				animate={animate}
 				transition={transition}
-				href="https://github.com/shivansh1507"
+				href="https://github.com/Ashu0Singh"
 				target="_blank">
-				<FaGithub />
+				<FaGithub color="#BC8CF2"/>
 			</motion.a>
 			<motion.a
 				initial={{ ...initial, translateX: 90 }}
 				animate={animate}
 				transition={transition}
-				href="https://leetcode.com/shivansh1507/"
+				href="https://leetcode.com/Ashu-Singh/"
 				target="_blank">
-				<SiLeetcode />
+				<SiLeetcode color="#BC8CF2"/>
 			</motion.a>
 			<motion.div
 				initial={{ ...initial, translateX: 90 }}

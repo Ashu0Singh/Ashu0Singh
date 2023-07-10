@@ -40,7 +40,7 @@ h1 {
 	content: "";
 	width: 20%;
 	height: 1px;
-	background-color: var(--color-primary);
+	background-color: var(--color-accent);
 }
 
 .midPannel{

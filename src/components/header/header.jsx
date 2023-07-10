@@ -25,7 +25,9 @@ const header = () => {
 						<motion.h3
 							initial={initial}
 							animate={animate}
-							transition={transition}>
+							transition={transition}
+							className="intro-greet"
+						>
 							Hey there, I'm{" "}
 						</motion.h3>
 						<motion.h1
@@ -34,7 +36,9 @@ const header = () => {
 							transition={{
 								...transition,
 								delay: 0.6,
-							}}>
+							}}
+							className="name"
+						>
 							Ashutosh Singh
 						</motion.h1>
 						<motion.h3
