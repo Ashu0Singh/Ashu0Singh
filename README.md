@@ -1,10 +1,10 @@
-<img src="https://raw.githubusercontent.com/Ashu0Singh/Ashu0Singh/main/Github%20Banner.png" alt="Banner" />
+<img src="https://raw.githubusercontent.com/Ashu0Singh/Ashu0Singh/master/Github%20Banner.png" alt="Banner" />
 <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=Ashu0Singh&color=blueviolet&style=for-the-badge" />
+    <img src="https://komarev.com/ghpvc/?username=Ashu0Singh&color=grey&style=for-the-badge" />
 </p>
 
 <p align="center" style="font-family: Helvetica, Arial, sans-serif">
-I am a third-year BTECH student in Computer Science at Vellore Institute of Technology, Amaravati. I specialize in Full Stack Web Development and UI Design, using technologies like React.js, Express.js, and MongoDB. I enjoy creating responsive and interactive web applications, and I have experience in designing visually appealing interfaces using tools like Figma. In my free time, I stay updated on front-end and UI design trends and work on personal projects to improve my skills. I'm excited to continue learning and contribute to the field of technology.
+I am a third-year Btech student in Computer Science at Vellore Institute of Technology, Amaravati. I specialize in Full Stack Web Development and UI Design, using technologies like React.js, Express.js, and MongoDB. I enjoy creating responsive and interactive web applications, and I have experience in designing visually appealing interfaces using tools like Figma. In my free time, I stay updated on front-end and UI design trends and work on personal projects to improve my skills. I'm excited to continue learning and contribute to the field of technology.
 </p>
 
 <p align="center">
